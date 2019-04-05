@@ -124,10 +124,10 @@ type CreateOpts struct {
 	TimeoutMemberData *int `json:"timeout_member_data,omitempty"`
 
 	// Backend member connection timeout in milliseconds
-	TimeoutMemberConnect *int `json:"timeout_member_connect,omitempty`
+	TimeoutMemberConnect *int `json:"timeout_member_connect,omitempty"`
 
 	// Time, in milliseconds, to wait for additional TCP packets for content inspection
-	TimeoutTCPInspect *int `json:timeout_tcp_inspect,omitempty`
+	TimeoutTCPInspect *int `json:timeout_tcp_inspect,omitempty"`
 
 	// A dictionary of optional headers to insert into the request before it is sent to the backend member.
 	InsertHeaders map[string]string `json:"insert_headers,omitempty"`
@@ -198,10 +198,10 @@ type UpdateOpts struct {
 	TimeoutMemberData *int `json:"timeout_member_data,omitempty"`
 
 	// Backend member connection timeout in milliseconds
-	TimeoutMemberConnect *int `json:"timeout_member_connect,omitempty`
+	TimeoutMemberConnect *int `json:"timeout_member_connect,omitempty"`
 
 	// Time, in milliseconds, to wait for additional TCP packets for content inspection
-	TimeoutTCPInspect *int `json:timeout_tcp_inspect,omitempty`
+	TimeoutTCPInspect *int `json:timeout_tcp_inspect,omitempty"`
 }
 
 // ToListenerUpdateMap builds a request body from UpdateOpts.
